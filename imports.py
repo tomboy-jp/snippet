@@ -1,7 +1,6 @@
 """
 sklearn関連
 """
-
 # 教師あり回帰/線形モデル
 from sklearn.linear_model import LinearRegression
 from sklearn.linear_model import Lasso
@@ -29,15 +28,15 @@ from sklearn.datasets import make_classification
 from sklearn.datasets import make_gaussian_quantiles
 from sklearn.datasets import make_blobs
 
-# データ分割
-from sklearn.model_selection import train_test_split
-
 # テストデータ
 from sklearn.datasets import load_iris
 from sklearn.datasets import load_boston
 from sklearn.datasets import load_diabetes
 from sklearn.datasets import load_digits
 from sklearn.datasets import load_linnerud
+
+# データ分割
+from sklearn.model_selection import train_test_split
 
 # 前処理系
 from sklearn.decomposition import PCA
