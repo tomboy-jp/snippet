@@ -38,10 +38,12 @@ from sklearn.datasets import load_linnerud
 # データ分割
 from sklearn.model_selection import train_test_split
 
-# 前処理系
+# 特徴量エンジニアリング
 from sklearn.decomposition import PCA
 from sklearn.manifold import TSNE
 from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import PolynomialFeatures
+from sklearn.preprocessing import MinMaxScaler
 
 # 自然言語処理
 from sklearn.feature_extraction.text import TfidfVectorizer
