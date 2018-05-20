@@ -18,6 +18,9 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.ensemble import GradientBoostingClassifier
 import xgboost as xgb
 
+# 教師あり分類/ニューラルネットワーク
+from sklearn.neural_network import MLPClassifier
+
 # 教師なし分類
 from sklearn.cluster import KMeans
 from sklearn.cluster import DBSCAN
