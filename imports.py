@@ -17,6 +17,7 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.ensemble import GradientBoostingClassifier
 import xgboost as xgb
+import lightgbm as lgb
 
 # 教師あり分類/ニューラルネットワーク
 from sklearn.neural_network import MLPClassifier
